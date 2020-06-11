@@ -19,7 +19,7 @@ class Tokenizer
       @code = @code.strip
     end
 
-    tokens
+    return tokens
   end
 
   private
@@ -36,7 +36,7 @@ class Tokenizer
       end
     end
 
-    raise RuntimeError.new("Palabra no reconocida") 
+    raise RuntimeError.new("Palabra no reconocida")
   end
 end
 
