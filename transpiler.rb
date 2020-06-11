@@ -16,7 +16,7 @@ class Tokenizer
     tokens = []
     until @code.empty?
       tokens.push(tokenize_one)
-      @code.strip!
+      @code = @code.strip
     end
 
     tokens
