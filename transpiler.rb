@@ -36,7 +36,7 @@ class Tokenizer
       end
     end
 
-    raise "Palabra no reconocida"
+    raise RuntimeError.new("Palabra no reconocida") 
   end
 end
 
