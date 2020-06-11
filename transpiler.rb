@@ -19,6 +19,7 @@ class Tokenizer
       @code = @code.strip
     end
 
+    puts tokens
     return tokens
   end
 
